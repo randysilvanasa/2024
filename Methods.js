@@ -12,4 +12,12 @@ Example:
 console.log('hello'.toUpperCase());
 console.log('Hey'.startsWith('H'));
 console.log('Hi'.toLowerCase());
+
+const obj = {
+    a: "foo",
+    b() {
+      return this.a;
+    },
+  };
+  console.log(obj.b()); // "foo"
  
